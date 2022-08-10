@@ -7,6 +7,10 @@ use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\RateController;
 use App\Http\Controllers\CommentController;
 use App\Http\Controllers\CartController;
+use App\Http\Controllers\OrderController;
+use App\Http\Controllers\TrackController;
+use App\Http\Controllers\ProductController;
+use App\Http\Controllers\CategoryController;
 
 /*
 |--------------------------------------------------------------------------
@@ -30,3 +34,7 @@ Route::apiResource("profile" , ProfileController::class);
 Route::apiResource("rate" , RateController::class);
 Route::apiResource("comment" , CommentController::class);
 Route::apiResource("cart" , CartController::class);
+Route::apiResource("order" , OrderController::class);
+Route::apiResource("track" , TrackController::class);
+Route::apiResource("product" , ProductController::class);
+Route::apiResource("category" , ProductController::class);
